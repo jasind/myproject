@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<sys/wait.h>
+#include<unistd.h>
+int atob[2],btoa[2];
+main()
+{
+	pipe(atob);
+	pipe(btoa);
+	if(fork()==0)
+	{
+		execve("prog_a.out",...);
+		exit(1);
+	}
+	if(fork()==0)
+	{
+		execve("prog_b.out"...);
+		exit(1);
+	}
+	wait();
+	wait();
+}
+prog_a()
+{
+	while(true)
+	{
+		printf("Processs A\n");
+		write()
+	}
+}

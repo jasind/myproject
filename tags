@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Data	ReadersWriters.java	/^class Data$/;"	c
+FALSE	ls.c	7;"	d	file:
+FiboandPrime	FiboandPrime.java	/^class FiboandPrime$/;"	c
+Fibonacci	FiboandPrime.java	/^	Fibonacci()$/;"	m	class:Fibonacci
+Fibonacci	FiboandPrime.java	/^class Fibonacci extends Thread$/;"	c
+Reader	ReadersWriters.java	/^	Reader()$/;"	m	class:Reader
+Reader	ReadersWriters.java	/^class Reader implements Runnable$/;"	c
+ReadersWriters	ReadersWriters.java	/^class ReadersWriters$/;"	c
+TRUE	ls.c	8;"	d	file:
+Writer	ReadersWriters.java	/^	Writer()$/;"	m	class:Writer
+Writer	ReadersWriters.java	/^class Writer implements Runnable$/;"	c
+child	time.c	/^child(n)$/;"	f
+count	ReadersWriters.java	/^	static int count=1;$/;"	f	class:Data
+decoration	.cache/compizconfig/decoration.pb	/^decoration:$/;"	l
+die	ls.c	/^void die(char *msg)$/;"	f
+file_select	ls.c	/^int file_select(struct direct *entry)$/;"	f
+i	ReadersWriters.java	/^	int i=1;$/;"	f	class:Reader
+i	ReadersWriters.java	/^	int i=1;$/;"	f	class:Writer
+main	FiboandPrime.java	/^	public static void main(String args[])$/;"	m	class:FiboandPrime
+main	ReadersWriters.java	/^	public static void main(String args[])$/;"	m	class:ReadersWriters
+main	alarm.c	/^void main(int argc,char *argv[])$/;"	f
+main	ls.c	/^int main()$/;"	f
+main	time.c	/^void main()$/;"	f
+mutex	ReadersWriters.java	/^	static Semaphore mutex=new Semaphore(1);$/;"	f	class:Data
+pan_factor*ZÕÃÃ=}oÉ:ÖÄ?çoÉ	.cache/compizconfig/ezoom.pb	/^pan_factor*/;"	l
+pathname	ls.c	/^char pathname[MAXPATHLEN];$/;"	v
+readCount	ReadersWriters.java	/^	static int readCount=0;$/;"	f	class:Data
+resizeinfo	.cache/compizconfig/resizeinfo.pb	/^resizeinfo:$/;"	l
+run	FiboandPrime.java	/^	public void run()$/;"	m	class:Fibonacci
+run	ReadersWriters.java	/^	public void run()$/;"	m	class:Reader
+run	ReadersWriters.java	/^	public void run()$/;"	m	class:Writer
+scaleaddon	.cache/compizconfig/scaleaddon.pb	/^scaleaddon:$/;"	l
+screenshot	.cache/compizconfig/screenshot.pb	/^screenshot:$/;"	l
+t	ReadersWriters.java	/^	Thread t;$/;"	f	class:Reader
+t	ReadersWriters.java	/^	Thread t;$/;"	f	class:Writer
+wakeup	alarm.c	/^void wakeup()$/;"	f
+writeBlock	ReadersWriters.java	/^	static Semaphore writeBlock=new Semaphore(1);$/;"	f	class:Data
